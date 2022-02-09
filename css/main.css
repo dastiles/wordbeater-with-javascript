@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2e2b2b;
+}
+
+header {
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid white;
+}
+
+header h1 {
+  color: white;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.outer {
+  height: 70vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.outer .word {
+  width: 100%;
+  margin: 20px;
+  text-align: center;
+}
+
+.outer .word h5 {
+  font-size: 45px;
+  color: white;
+  text-transform: capitalize;
+}
+
+.outer .time {
+  width: 100%;
+  margin: 20px;
+}
+
+.outer .time p {
+  color: green;
+  font-size: 18px;
+  text-align: center;
+}
+
+.outer .input {
+  width: 100%;
+  margin: 20px;
+}
+
+.outer .input input {
+  width: 100%;
+  background-color: white;
+  padding: 5px 10px;
+  border: none;
+  height: 35px;
+  outline: none;
+  font-size: 20px;
+}
+
+.outer .info {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  margin: 10px;
+}
+
+.outer .score {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  margin: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
